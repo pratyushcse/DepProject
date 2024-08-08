@@ -1,0 +1,11 @@
+.app {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 21vw; /* Slightly more than the sidebar to ensure proper spacing */
+    width: 79vw; /* Remaining width for content */
+    padding: 20px;
+  
+
+  }

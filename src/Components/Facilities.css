@@ -1,0 +1,32 @@
+.facilities {
+    padding: 20px;
+  }
+  
+  .facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .facility-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw; /* Each item width set to 35% of the viewport width */
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .facility-item img {
+    width: 100%; /* Image takes full width of its container */
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px; /* Space between image and name */
+  }
+  
+  .facility-item p {
+    font-size: 1.2rem;
+  }
+  
